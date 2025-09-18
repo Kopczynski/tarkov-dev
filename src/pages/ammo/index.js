@@ -21,7 +21,7 @@ import './index.css';
 import { useSelector } from 'react-redux';
 import { selectAllTraders } from '../../features/settings/settingsSlice.mjs';
 
-const MAX_DAMAGE = 260; // Max dmg is 260 with the addition of the AK-50 rounds
+const MAX_DAMAGE = 260; // De-clutter right side of graph with the addition of the AK-50 rounds
 const MAX_PENETRATION = 70;
 
 const skipCalibers = [
